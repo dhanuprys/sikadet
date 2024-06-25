@@ -1,4 +1,4 @@
-const getWuku = require('../../dist/utils/getWuku').default;
+const getWuku = require('../../../dist/utils/getWuku').default;
 
 describe('Get exact wuku names', () => {
     test('First wuku', () => {

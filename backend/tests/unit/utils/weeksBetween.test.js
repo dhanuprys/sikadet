@@ -1,4 +1,4 @@
-const weeksBetween = require('../../dist/utils/weeksBetween').default;
+const weeksBetween = require('../../../dist/utils/weeksBetween').default;
 
 describe('Check week distance', () => {
     test('Distance', () => {
