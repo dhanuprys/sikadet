@@ -3,7 +3,7 @@
     "build": "npx tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
-    "test": "jest"
+    "test": "npm run build && jest"
   },
   "dependencies": {
     "@types/express-validator": "^3.0.0",
